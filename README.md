@@ -2,7 +2,7 @@
 
 This is a repository for the prompt engineering project. The goal of this project is to create a tool that can be used to generate prompts for a variety of different tasks. The prompts are generated using a ChatGPT-3.5 turbo model. The model is then used to generate prompts for a given task.
 
-This is a course from **Deeplearning.AI** and **OpenAI.**
+This is a [course](https://learn.deeplearning.ai/?_gl=1*ggepyo*_ga*MTk5MjU1NDY1NS4xNjgzMzg2OTM2*_ga_PZF1GBS1R1*MTY4NTQ3NzMzNi4zLjAuMTY4NTQ3NzM0Ny40OS4wLjA.) from **DeepLearning.AI** and **OpenAI.**
 
 ## Installation
 
