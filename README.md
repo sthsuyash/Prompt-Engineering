@@ -6,9 +6,39 @@ This is from [course](https://learn.deeplearning.ai/?_gl=1*ggepyo*_ga*MTk5MjU1ND
 
 I have made own modifications to the project and is not the same as the original project code in the course.
 
+## Description
+
+LLM (Large Language Model) is a model that can be used to generate text in a variety of different languages. The model is trained on a large corpus of text.
+
+There are two types of language models(LLM):
+
+1. ### Base LLM
+
+   Predicts the next word in a sequence of words based on text training data.
+
+   Gives what is the next most likely word to be followed.
+
+   Eg.
+
+   1. <span style="color:red">Once there lived two</span> <span style="color:green">person in a village who were very poor.</span>
+
+   2. <p style="color:red">What is the tallest mountain in the world?</p>
+      <p style="color:green">How tall is the tallest mountain in the world?</p>
+
+2. ### Instruction Tuned LLM
+
+   Fine-tunes on instructions and good attempts at following those instructions.
+
+   used RLHF (Reinforcement Learning from Human Feedback) to fine-tune the model.
+
+   Helpful, Honest, Harmless
+
+   1. <p style="color:red">What is the tallest mountain in the world?</p>
+      <p style="color:green">Mount Everest is the tallest mountain in the world.</p>
+
 ## Installation
 
-To install the project, you will need to clone the repository and install the dependencies. The dependencies are:
+To install the project, you will need to clone the repository and install the following requirements:
 
 - Python 3.11+
 - Anaconda
@@ -37,7 +67,9 @@ To use the project, you will need to run the Jupyter Notebook. There are various
 
 ## Projects
 
-- [Principles of Prompting](./principles-of-prompting.ipynb)
+- [Principles of Prompting](./principles_of_prompting.ipynb)
+- [Summarization](./summarization.ipynb)
 - [Inference](./inference.ipynb)
 - [Transformation](./transformation.ipynb)
 - [Expanding](./expanding.ipynb)
+- [Chatbot](./chatbot.ipynb)
