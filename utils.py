@@ -31,3 +31,21 @@ def get_completion(prompt, model="gpt-3.5-turbo", temperature=0):
             time.sleep(1)
 
     return response.choices[0].message["content"]
+
+# function to get completion from messages from OpenAI API
+
+
+def get_completion_from_messages(messages, model="gpt-3.5-turbo", temperature=0):
+    response = None
+    while response is None:
+        try:
+            response = openai.ChatCompletion.create(
+                model=model,
+                messages=messages,
+                temperature=temperature
+            )
+        except openai.error.RateLimitError:
+            print("Rate limit exceeded. Waiting for 1 second...")
+            time.sleep(1)
+
+    return response.choices[0].message["content"]
