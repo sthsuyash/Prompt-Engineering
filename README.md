@@ -73,3 +73,13 @@ To use the project, you will need to run the Jupyter Notebook. There are various
 - [Transformation](./transformation.ipynb)
 - [Expanding](./expanding.ipynb)
 - [Chatbot](./chatbot.ipynb)
+
+## Iterative Prompt Development
+
+The process of prompt development is iterative. The process is as follows:
+
+- Idea
+- Implementation(Code/Data) Prompt
+- Experimental result
+- Error Analysis
+  and repeat
